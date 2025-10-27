@@ -1,0 +1,24 @@
+# Build outputs (ignore everything in out/ except final OrangeFox files)
+fox_12.1/out/*
+!fox_12.1/out/target/
+fox_12.1/out/target/*
+!fox_12.1/out/target/product/
+fox_12.1/out/target/product/*
+!fox_12.1/out/target/product/troika/
+fox_12.1/out/target/product/troika/*
+!fox_12.1/out/target/product/troika/OrangeFox*.zip
+!fox_12.1/out/target/product/troika/OrangeFox*.img
+!fox_12.1/out/target/product/troika/OrangeFox*.md5
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+*.log.gz
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.pyc
